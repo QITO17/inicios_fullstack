@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.conteinerRappi{
+    background-image: url('../imgs/rappixd.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.conteinerRappi2{
+    background-image: url('../imgs/pppa.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.createe{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    max-width: 500px;
+    background-color: rgba(238, 156, 156, 0.452);
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(238, 156, 156, 0.719);
+}
+
+
+
+form{
+    display: flex;
+    gap: 10px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    align-content: center;
+}
+
+form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+input{
+    width: 180px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 1px rgba(238, 156, 156, 0.719);
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.boton{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.boton:hover{
+    transition: 1s;
+    background-color: rgba(238, 156, 156, 0.719);
+}
